@@ -262,3 +262,16 @@ li {
     font-size:24px;
   }
 }
+
+.footerr {
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(45, 44, 44);
+  color: gray;
+}
+
+.footer-cont {
+  background: transparent;
+}
