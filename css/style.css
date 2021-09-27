@@ -26,7 +26,7 @@ body {
 }
 
 #social-nav ul {
-    margin-top: 20rem;
+    margin-top: 18.8rem;
     width: 56px;
 }
 
@@ -46,7 +46,7 @@ li {
   text-align:center;
   background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
   color:white;
-  height: 600pxs;
+  height: 650px;
 }
 
 .inner-header {
@@ -130,8 +130,9 @@ li {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 600px;
-    margin-bottom: 0;
+    margin-top: 1.5rem;
+    height: fit-content;
+    margin-bottom: 2rem;
 }
 
 .about-section {
@@ -152,6 +153,21 @@ li {
     font-weight: 200;
     line-height: 1.5;
     font-size: 1.5em;
+}
+
+.chase {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.pic-chase {
+  border-radius: 22.6em;
+  width: 10rem;
+  height: 10rem;
 }
 
 /* Skills */
@@ -253,7 +269,7 @@ li {
 /*Shrinking for mobile*/
 @media (max-width: 768px) {
   .waves {
-    height:40px;
+    height:167px;
     min-height:40px;
   }
   .content {

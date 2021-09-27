@@ -2,11 +2,12 @@ const sr = ScrollReveal({
     distance: '60px',
     duration: 2500,
     delay: 400,
-    reset: true
+    reset: false
 });
 
 sr.reveal(`#hero-tag, #hero-sub-tag`,{delay: 200});
 sr.reveal(`#aboutme`,{origin: 'top', delay: 200});
+sr.reveal(`.pic-chase`,{origin: 'right', delay: 200});
 sr.reveal(`#aboutme-para`,{origin: 'bottom', delay: 200});
 sr.reveal(`.skill-name`,{origin: 'bottom', delay: 400});
 sr.reveal(`.icon-skill`,{origin: 'top', delay: 400});
