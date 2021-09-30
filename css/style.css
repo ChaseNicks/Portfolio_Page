@@ -3,6 +3,7 @@
 body {
     font-family: 'Lato', sans-serif;
     margin:0;
+    background-color: black;
 }
 
 #hero-tag {
@@ -40,11 +41,16 @@ li {
     list-style: none;
 }
 
+.navbar-burger {
+  color: #00d1b2!important;
+}
+
 
 .header {
   position:relative;
   text-align:center;
-  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+  /* background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%); */
+  background: black;
   color:white;
   height: 650px;
 }
@@ -133,6 +139,7 @@ li {
     margin-top: 1.5rem;
     height: fit-content;
     margin-bottom: 1.5rem;
+    color: white;
 }
 
 .about-section {
@@ -175,20 +182,20 @@ li {
 /* Skills */
 
 #skills {
-    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+    background: black;
     height: fit-content;
     border-radius: .5rem;
 }
 
 .skill-headers {
-  background: linear-gradient(68deg, rgba(84,58,183,1) -7%, rgba(0,172,193,1) 102%);
+  background: black;
   /* margin-top: -6rem; */
   border-radius: 1rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   height: fit-content;
-  box-shadow:  0px 6px 29px -2px black;
+  box-shadow:  0px 0px 29px -2px white;
 }
 
 .skill-name {
@@ -226,7 +233,7 @@ li {
   position: relative;
   overflow: hidden;
   border-radius: 12px;
-  box-shadow:  0px 6px 29px -2px black;
+  /* box-shadow:  0px 0px 29px -2px white; */
 }
 
 .test2 {
@@ -287,8 +294,8 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(45, 44, 44);
-  color: gray;
+  background: black;
+  color: white;
 }
 
 .footer-cont {

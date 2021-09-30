@@ -41,9 +41,13 @@ li {
 .header {
   position:relative;
   text-align:left;
-  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+  background: black;
   color:white;
   height: 600pxs;
+}
+
+.navbar-burger {
+  color: #00d1b2!important;
 }
 
 
