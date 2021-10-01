@@ -289,6 +289,16 @@ li {
   }
 }
 
+.view-m {
+  color: white;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.view-m:hover {
+  color: #00d1b2;
+}
+
 .footerr {
   height: 7rem;
   display: flex;
