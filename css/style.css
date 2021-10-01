@@ -244,6 +244,13 @@ li {
   display: block;
 }
 
+.btn-container {
+  padding-bottom: .5rem;
+}
+
+.btn-prof {
+  border: #00d1b2 3px !important;
+}
 
 
 /* Animation */
