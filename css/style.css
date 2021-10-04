@@ -47,12 +47,12 @@ li {
 
 
 .header {
-  position:relative;
+  /* position:relative; */
   text-align:center;
   /* background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%); */
   background: black;
   color:white;
-  height: 650px;
+  height: 750px;
 }
 
 .inner-header {
@@ -113,6 +113,10 @@ li {
   align-items: center;
   text-align: center;
 }
+
+/* #wave-container {
+  position: static;
+} */
 
 .waves {
   position:relative;
