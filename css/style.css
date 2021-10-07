@@ -6,6 +6,26 @@ body {
     background-color: black;
 }
 
+.navbar-menu.is-active {
+  animation: navAnim 1s ease-in-out;
+}
+
+@keyframes navAnim {
+0% {
+  display: none;
+  opacity: 0;
+  height: 0;
+}
+1% {
+  display: block;
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+  height: 240px;
+}
+}
+
 #hero-tag {
     font-weight: 400;
     font-size: 2.8rem
