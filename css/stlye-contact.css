@@ -5,6 +5,27 @@ body {
     margin:0;
 }
 
+.navbar-menu.is-active {
+  animation: navAnim 1s ease-in-out;
+  animation-duration: infinite;
+}
+
+@keyframes navAnim {
+0% {
+  display: none;
+  opacity: 0;
+  height: 0;
+}
+1% {
+  display: block;
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+  height: 125px;
+}
+}
+
 #social-nav {
     width: 80px;
     position: fixed;

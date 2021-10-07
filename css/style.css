@@ -8,6 +8,7 @@ body {
 
 .navbar-menu.is-active {
   animation: navAnim 1s ease-in-out;
+  animation-duration: infinite;
 }
 
 @keyframes navAnim {
