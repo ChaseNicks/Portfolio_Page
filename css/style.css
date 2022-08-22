@@ -96,9 +96,10 @@ li {
     border-bottom: 1px solid rgb(255, 255, 255);
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    -webkit-animation: sdb05 1.5s infinite;
-    animation: sdb05 1.5s infinite;
+    -webkit-animation: sdb05 2s infinite;
+    animation: sdb05 2s infinite;
     box-sizing: border-box;
+    opacity: .1;
   }
   @-webkit-keyframes sdb05 {
     0% {
@@ -280,23 +281,23 @@ li {
 /* Animation */
 
 .parallax > use {
-  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+  animation: move-forever 60s cubic-bezier(.55,.5,.45,.5)     infinite;
 }
 .parallax > use:nth-child(1) {
   animation-delay: -2s;
-  animation-duration: 7s;
+  animation-duration: 26s;
 }
 .parallax > use:nth-child(2) {
   animation-delay: -3s;
-  animation-duration: 10s;
+  animation-duration: 17s;
 }
 .parallax > use:nth-child(3) {
   animation-delay: -4s;
-  animation-duration: 13s;
+  animation-duration: 23s;
 }
 .parallax > use:nth-child(4) {
   animation-delay: -5s;
-  animation-duration: 20s;
+  animation-duration: 30s;
 }
 @keyframes move-forever {
   0% {
